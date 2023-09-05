@@ -5,9 +5,19 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 ## 🚀 How to use
 
 ```sh
-npx create-expo-app -e with-router
+npx create-expo-app@latest -e with-router ./
 ```
 
+```sh
+npx install -g expo-cli
+```
+
+```sh
+expo-cli start --tunnel
+```
+```sh
+expo publish
+```
 ## 📝 Notes
 
 - [Expo Router: Docs](https://expo.github.io/router)
